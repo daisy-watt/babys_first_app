@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    colorize (0.8.1)
+    paint (2.2.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  colorize
+  paint
+
+BUNDLED WITH
+   2.1.4
