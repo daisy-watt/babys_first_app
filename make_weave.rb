@@ -11,9 +11,9 @@ def make_weave
     name = gets.chomp.downcase
 
     # -- could ask if the user wants random colorisation or specific colours
-    puts "Would you like choice or no choice"
+    puts "Would you like choice in your yarn colors or no choice"
     choice = gets.chomp
-
+    puts "here is your woven encryption:"
     if choice == "no"
         warp_color_R = rand(0..255)
         warp_color_G = rand(0..255)
