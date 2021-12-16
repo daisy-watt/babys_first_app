@@ -1,8 +1,15 @@
 require_relative "make_weave"
-require_relative "sley_sequence"
+require_relative "weave_calculator"
 require "tty-prompt"
+require "paint"
+require "colorize"
 
 prompt = TTY::Prompt.new
+
+#### ---> error, tests, bash scripting
+
+#Save your file feature (save name or generate)
+#Decrypting 
 
 puts "
     ,---------------------------,
@@ -24,9 +31,9 @@ puts "
 /-------------------------------------/|   ( )/
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ /
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ /
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~".green 
 
-choice = prompt.select("hello, what are you here for? (Use ↑/↓ arrow keys, press Enter to select)", %w(make_weave_encryption weaver_tools))
+choice = prompt.select("hello, what are you here for?", %w(make_weave_encryption decipher_weave weave_calculator))
 
 # weave_encryptions = 0
 # weaver_tools = 1
@@ -39,8 +46,9 @@ puts choice
 
 if choice == "make_weave_encryption"
     make_weave
-elsif choice == "weaver_tools"
-    sley_sequence
-else 
-    puts "how on earth did you get here"
+elsif choice == "decipher_weave"
+    # weave_txt
+else choice == "weave_calculator"
+    # require_relative "weave_calculator"
+    choose_calculator_function
 end
