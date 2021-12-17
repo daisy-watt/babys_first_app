@@ -1,5 +1,6 @@
 require_relative "make_weave"
 require_relative "weave_calculator"
+require_relative "decipher_weave"
 require "tty-prompt"
 require "tty-editor"
 require "paint"

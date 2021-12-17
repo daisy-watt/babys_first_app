@@ -1,3 +1,13 @@
+require "tty-prompt"
+require "tty-editor"
+require "paint"
+require "colorize"
+prompt = TTY::Prompt.new
+
+def decipher_weave
+    puts "I wasnt gonna make it that easy for you to decipher the secret messages...".green
+end
+
 # require "json"
 
 # structure_file_string_test = File.read('./checker_structure.json')
@@ -14,6 +24,3 @@
 
 # index = index + 1
 # end 
-
-def decipher_weave
-    puts "whoops, I wasnt gonna make it that easy for you to decipher the secret messages..."
