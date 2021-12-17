@@ -50,8 +50,22 @@ end
 
 
 def sley_sequence_calculator
-
-
+    
+    begin
+        #Read the file from disk into a string.
+        epi_chart = File.read('./epi_chart.json')   
+    rescue => exception
+        puts "Hey angel this file is missing."
+        exit
+    end
+    
+    begin
+        # Convert the JSON string into a ruby hash.
+        epi_chart_hash = JSON.parse(epi_chart) 
+    rescue => exception
+        puts "Hey angel this JSON file is broken :( "
+        exit
+    end
     # epi_chart = JSON.parse(File.read('./epi_chart.json'))
     # selction = gets.chomp
     puts "Enter the size of reed you wish to use"
