@@ -52,5 +52,6 @@ def sley_sequence_calculator
     reed = gets.chomp
     puts "Enter in your Ends Per Inch to find your slay sequence"
     epi_size = gets.chomp
-    puts epi_chart[reed][epi_size].green
+    sley_sequence = epi_chart[reed][epi_size]
+    puts "Your sley sequence is #{sley_sequence}".green
 end

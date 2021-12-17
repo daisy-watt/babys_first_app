@@ -38,7 +38,7 @@ if choice == "make_weave_encryption"
     make_weave
 elsif choice == "decipher_weave"
     #------------------>this doesnt exist? so will this be an error?
-    # weave_txt
+    decipher_weave
 else choice == "weave_calculator"
     choose_calculator_function
 end
@@ -47,7 +47,7 @@ end
 ### ---> MISSING parts of assesment: Another ruby gem, error handling, tests, bash scripting, command line arguments??
 
 ##---> MISSING FEATURE Save your file feature (save name or generate)
-\
+
 #Decrypting (extra if there is time)
 
 #### theres no way of going back through the program, is that fine? like a loop back to the main menu so the program doesnt just quit or atleat a goodbye msg
