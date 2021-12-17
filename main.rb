@@ -1,15 +1,11 @@
 require_relative "make_weave"
 require_relative "weave_calculator"
 require "tty-prompt"
+require "tty-editor"
 require "paint"
 require "colorize"
-
 prompt = TTY::Prompt.new
 
-#### ---> error, tests, bash scripting
-
-#Save your file feature (save name or generate)
-#Decrypting 
 
 puts "
     ,---------------------------,
@@ -26,7 +22,7 @@ puts "
 /___________________________________ /  | ___
 |                                   |   |    )
 |  _ _ _                 [-------]  |   |   (
-|  6 6 6                 [-------]  |  /    _)_
+|  4 2 0                 [-------]  |  /    _)_
 |__________________________________ |/     /  /
 /-------------------------------------/|   ( )/
 /-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ /
@@ -35,20 +31,25 @@ puts "
 
 choice = prompt.select("hello, what are you here for?", %w(make_weave_encryption decipher_weave weave_calculator))
 
-# weave_encryptions = 0
-# weaver_tools = 1
-
-# puts "hello human, chose your destiny..."
-# puts "choose 0 to encrypt your name in a weave"
-# puts "choose 1 to literally do anything else lol"
 puts choice 
 # choice = gets.chomp.to_i
 
 if choice == "make_weave_encryption"
     make_weave
 elsif choice == "decipher_weave"
+    #------------------>this doesnt exist? so will this be an error?
     # weave_txt
 else choice == "weave_calculator"
-    # require_relative "weave_calculator"
     choose_calculator_function
 end
+
+
+### ---> MISSING parts of assesment: Another ruby gem, error handling, tests, bash scripting, command line arguments??
+
+##---> MISSING FEATURE Save your file feature (save name or generate)
+\
+#Decrypting (extra if there is time)
+
+#### theres no way of going back through the program, is that fine? like a loop back to the main menu so the program doesnt just quit or atleat a goodbye msg
+
+#### user guides??**(past student github readme's)

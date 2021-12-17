@@ -12,7 +12,7 @@ def choose_calculator_function
         epi_calculator
     elsif choice == "total_ends_calculator"
         total_ends_calculator
-    else choice == "sley_sequence_calculator"
+    elsif choice == "sley_sequence_calculator"
         sley_sequence_calculator
     end
 end

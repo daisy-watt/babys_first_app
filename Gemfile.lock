@@ -7,6 +7,8 @@ GEM
       tty-color (~> 0.5)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
+    tty-editor (0.7.0)
+      tty-prompt (~> 0.22)
     tty-prompt (0.23.1)
       pastel (~> 0.8)
       tty-reader (~> 0.8)
@@ -23,6 +25,7 @@ PLATFORMS
 DEPENDENCIES
   colorize
   paint
+  tty-editor
   tty-prompt
 
 BUNDLED WITH

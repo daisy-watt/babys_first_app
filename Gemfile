@@ -11,3 +11,5 @@ gem "colorize"
 gem "paint"
 
 gem "tty-prompt"
+
+gem "tty-editor"
