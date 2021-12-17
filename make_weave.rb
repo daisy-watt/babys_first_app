@@ -16,9 +16,14 @@ def make_weave
         exit
     end
 
+    begin
+        # Convert the JSON string into a ruby hash.
+        structure_hash = JSON.parse(structure_file_string) 
+    rescue => exception
+        puts "Hey angel this JSON file is broken :( "
+        exit
+    end
 
-    # Convert the JSON string into a ruby hash.
-    structure_hash = JSON.parse(structure_file_string)
     
     # Get user input.
     # -------------------what happens if someone enters in a symbol or number?
