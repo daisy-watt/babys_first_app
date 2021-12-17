@@ -6,6 +6,19 @@ prompt = TTY::Prompt.new
 
 def decipher_weave
     puts "I wasnt gonna make it that easy for you to decipher the secret messages...".green
+    puts "
+    _________________
+    |# :           : #|
+    |  : cipher    :  |
+    |  :  missing  :  |
+    |  :           :  |
+    |  :___________:  |
+    |     _________   |
+    |    | __      |  |
+    |    ||  |     |  |
+     \____||__|_____|__|
+     
+     404 not found lol".green
 end
 
 # require "json"
