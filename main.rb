@@ -80,10 +80,6 @@ else
     exit
 end
 
-### ---> MISSING parts of assesment: another test, bash scripting, command line arguments??
-
 #Decrypting (extra if there is time)
-
-#### theres no way of going back through the program, is that fine? like a loop back to the main menu so the program doesnt just quit or atleat a goodbye msg
 
 #### user guides??**(past student github readme's)
