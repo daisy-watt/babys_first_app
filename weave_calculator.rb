@@ -28,16 +28,12 @@ end
 
 def epi_calculator(wraps_per_inch) 
     return (wraps_per_inch / 3) * 2
-    # def epi_sum(a)
-    #     return (a / 3) * 2  
-    # end
-    # epi = epi_sum(wraps_per_inch) 
+
 end
 
 def total_ends_calculator(ends_per_inch,warp_width)
     return ends_per_inch * warp_width 
-    # total_ends = total_ends_sum(epi,warp_width) 
-    # puts "Your total number of ends are #{total_ends}".green
+
 end
 
 def sley_sequence_calculator
@@ -57,8 +53,7 @@ def sley_sequence_calculator
         puts "Hey angel this JSON file is broken :( "
         exit
     end
-    # epi_chart = JSON.parse(File.read('./epi_chart.json'))
-    # selction = gets.chomp
+
     puts "Enter the size of reed you wish to use"
     reed = gets.chomp
     puts "Enter in your Ends Per Inch to find your slay sequence"

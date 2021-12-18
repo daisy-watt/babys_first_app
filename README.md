@@ -11,7 +11,7 @@
 
 
 
-STATEMENT OF PURPOSE AND SCOPE:
+----STATEMENT OF PURPOSE AND SCOPE:
 
 In ten words or less, this application turns words into coloured weave structures. 
 
@@ -22,19 +22,19 @@ weave pocket calculator - There's also a tongue-in-cheek ghost category(deciper_
 
 The target audience for this app is broken into two parts; one part focusing on other studio weavers or textile folk who regularly work with looms. They would benefit from the automation of some basic calculations and from the streamlining of accessing their sley sequence specifications for loom set up requirements. The second part of this application's intended targeted audience would be for anyone with a curiosity for weaving and tongue-in-cheek-encryption, it could provide entertainment and indulge cheeky creativity. 
 
-FEATURES DESCRIPTIONS:
+----FEATURES DESCRIPTIONS:
 
 - make_weave_encryption:
    - This feature turns written message into a "weave structures"
 This is the "main event" of the app, It matches alphabetical characters with their pre assigned structure, producing output within the terminal of a string of those structures - which is just a re-interpretation of the original alphabetical message. It plays with ideas of data visualization and encryption, in a lighthearted way. Through the use of generating a hash filled with assigning individual alphabetic letters as keys to my strings of asci symbols as the values (the weave structures).
 
-Randomize color option feature:
+-   Randomize color option feature:
 Utilizes the “Paint gem” which allows for RGB value inputs by using the rand method(random selecting) when passing it ranges as its argument for every Red, Green and Blue value for both the "warp"(background) and "weft"(foreground)
 
-       - Precise RGB choice for Warp and Weft of weaves:
+-   Precise RGB choice for Warp and Weft of weaves:
 Again making use of the ruby gem “paint” to allow us to pass in specific values for RGB requirements. This would allow the user to exactly color match their secret message encryption with their desired color palette.
 
-Output as txt file and Open in text editor:
+-   Output as txt file and Open in text editor:
 Once txt (secret message) and color input has been executed, the “encrypted weave” saves as a ‘.txt’ file. With the use of another ruby gem “editor” the user also has the ability to then open the file in a txt editor - this is where I have future plans to expand for the deciphering element to the app. Opening it in a txt editor allows the user to access the output string of asci symbols - weaves.
          
 - weave_calculator:
@@ -47,10 +47,11 @@ This feature works similar to the epi_calculator, this function is used to calcu
 This feature gives the user the ability to find the right sequence/setting for the loom they are using, depending on a couple of other variables. Normally this information is stored in a table/chart and is slow to read, this function using keys for keys and values to access the right sequence based on the imput of the user - spitting out the correct sequence/settings for their loom set up. This method pulls information from a JSON file, which has a large hash within a hash.
 
 
-OUTLINE USER INTERACTIONS/EXPERIENCE:
+----OUTLINE USER INTERACTIONS/EXPERIENCE:
 
 
-IMPLEMENTATION PLAN: 
+
+----IMPLEMENTATION PLAN: 
 
 The timeframe and workflow magagement of this project was kept on track with the usgae of Trello's web-based list making application. You can view and access the workspace here https://trello.com/b/0qxbGEJz/t1a3 
 
@@ -61,29 +62,46 @@ Below shows the trello workspace, with sperate piles/stages for: to do, currentl
 I added (ambitious) timeframes for individual tasks with the intention of completing the project BEFORE the final due date..:
 ![screenshot of individual feature card](./docs/trello_feature_words_to_weave.jpg)
 
-CONTROL FLOW DIAGRAM:
+-   CONTROL FLOW DIAGRAM:
 
 ![flow chart screenshot](./docs/flowchart_weavemate_94.jpg)
 
-GITLOG FILES/LINK:
+----GITLOG FILES/LINK:
 
 https://github.com/daisy-watt/babys_first_app.git
 
-HELP DOCUMENTATION/INSTALL INSTRUCTIONS:
+----HELP DOCUMENTATION/INSTALL INSTRUCTIONS:
 
-INSTALLATION INSTRUCTIONS:
+Navigation through the application is primarily though the use of your up and down arrow keys to select the feature you wish to interact with:
+![main menu navigation](./docs/main_menu_screengrab.jpg)
+
+Use plain text iput with NO symbols for the secret message and be sure to always hit enter after ever typing anything out in your terminal.
+![secret msg imput](./docs/secret_msg_example.jpg)
+
+The program again will ask for a simple yes or no about if you want to be specific about your colours or if you want them top be randomly generated before it spits your secret message out as a encrypted weave. 
+![weave output](./docs/secret_weave_screengrab.jpg)
+
+You will notice a file generated called 'secret_weave.txt' in the directory of this application - this happens when your weave is generated.
+![file saved as txt](./docs/output_txt_file_screen_grab.jpg)
+
+The final step in this process is your choice in which txt editor you would like to open the file in(navigated through the up and down arrow keys and by pressing enter:
+![txt editor feature](./docs/txt_editor_feature.jpg)
+
+
+
+----INSTALLATION INSTRUCTIONS:
 
 -Instal ruby 2.7.4 or later
 -Clone/'download' the repository from ths github link: https://github.com/daisy-watt/babys_first_app.git 
 -Using the command line in your terminal, change directores into the source folder of the project
 -Run the program by entering 'ruby main.rb -mode fun' into the commandline in your terminal.
 
-SYSTEM REQUIREMENTS:
+----SYSTEM REQUIREMENTS:
 
 ruby 2.7.4p191 or later
 Mac OS or Windows OS 
 
-DEPENDANCIES:
+----DEPENDANCIES:
 
 colorize (0.8.1)
 paint (2.2.1)
@@ -91,7 +109,7 @@ tty-editor  (0.7.0)
 tty-prompt (0.23.1)
 json (2.6.1) 
 
-TESTING:
+----TESTING:
 
 -Run the 2 planned tests by entering 'ruby main.rb -mode testy'
 -Both tests should return true if the program is good to go, false if there were issues. 

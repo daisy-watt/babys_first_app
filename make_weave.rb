@@ -33,7 +33,6 @@ def make_weave
     # -------------------what happens if someone enters in something other than yes or no?
     puts "Would you like to choose your colors? (type in yes or no baby)"
 
-    # color_choice = prompt.select("now, how would you like to color your weave? (Use ↑/↓ arrow keys, press Enter to select)", %w(let_the_matrix_decide imput_RGB_values))
 
     color_choice = gets.chomp
     puts "here is your secret woven encryption:"
