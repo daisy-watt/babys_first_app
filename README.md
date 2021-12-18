@@ -46,11 +46,6 @@ This feature works similar to the epi_calculator, this function is used to calcu
    - sley_sequence_finder:
 This feature gives the user the ability to find the right sequence/setting for the loom they are using, depending on a couple of other variables. Normally this information is stored in a table/chart and is slow to read, this function using keys for keys and values to access the right sequence based on the imput of the user - spitting out the correct sequence/settings for their loom set up. This method pulls information from a JSON file, which has a large hash within a hash.
 
-
-----OUTLINE USER INTERACTIONS/EXPERIENCE:
-
-
-
 ----IMPLEMENTATION PLAN: 
 
 The timeframe and workflow magagement of this project was kept on track with the usgae of Trello's web-based list making application. You can view and access the workspace here https://trello.com/b/0qxbGEJz/t1a3 
@@ -70,7 +65,7 @@ I added (ambitious) timeframes for individual tasks with the intention of comple
 
 https://github.com/daisy-watt/babys_first_app.git
 
-----HELP DOCUMENTATION/INSTALL INSTRUCTIONS:
+----OUTLINE USER INTERACTIONS/EXPERIENCE:
 
 Navigation through the application is primarily though the use of your up and down arrow keys to select the feature you wish to interact with:
 ![main menu navigation](./docs/main_menu_screengrab.jpg)
@@ -88,8 +83,7 @@ The final step in this process is your choice in which txt editor you would like
 ![txt editor feature](./docs/txt_editor_feature.jpg)
 
 
-
-----INSTALLATION INSTRUCTIONS:
+----INSTALLATION INSTRUCTIONS/HELP:
 
 -Instal ruby 2.7.4 or later
 -Clone/'download' the repository from ths github link: https://github.com/daisy-watt/babys_first_app.git 
