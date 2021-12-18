@@ -9,4 +9,14 @@ def test_1
 
 end 
 
-puts "Test 1: #{test_1()}"
+
+
+def test_2
+    a = 2
+    b = 2
+    c = total_ends_calculator(a,b)
+    expected = 4
+
+    return c == expected 
+
+end

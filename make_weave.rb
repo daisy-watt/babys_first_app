@@ -38,7 +38,12 @@ def make_weave
     color_choice = gets.chomp
     puts "here is your woven encryption:"
     if color_choice == "no"
-
+        warp_color_R = rand(0..255)
+        warp_color_G = rand(0..255)
+        warp_color_B = rand(0..255)
+        weft_color_R = rand(0..255)
+        weft_color_G = rand(0..255)
+        weft_color_B = rand(0..255)
     else 
         puts "Compose your weave by assigning the RGB values of the Warp and Weft... (RGB = Red Green Blue)"
         puts "Assign your Warp's Red color by choosing a value between 0-255"
