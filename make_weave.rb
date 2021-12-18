@@ -72,7 +72,7 @@ def make_weave
         final_weave_output << converted_character
         final_weave_output << "\n"
 
-        # Print out weave structure for chatacter ----- OPTIONS FOR "EXPORTING" (ie jpg, tff, pdf)
+        # Print out weave structure for chatacter 
         puts Paint[converted_character, [warp_color_R, warp_color_G, warp_color_B], [weft_color_R, weft_color_G, weft_color_B]] 
         # puts converted_character.colorize(:background => warp_colour, :color => weft_colour)
         # Move to next character

@@ -17,7 +17,7 @@ if ARGV.length > 0
             mode = rest[0]
             puts mode 
         when '-info'
-            puts "this program is running #{RUBY_VERSION}"
+            puts "this silly weave program is running #{RUBY_VERSION}"
         when '-helpme'
             puts "Use '-mode fun' or '-mode testy'"
         else
@@ -26,9 +26,7 @@ if ARGV.length > 0
 end
 
 # IF NO MODE, EXIT AND TELL USER THEY NEED TO ENTER MODE
-
 # ELSE IF MODE FUN, CALL MAIN
-
 # ELSE IF MODE TEST, CALL ALL TESTS
 
 def main
@@ -58,12 +56,12 @@ def main
     choice = prompt.select("hello, what are you here for?", %w(make_weave_encryption decipher_weave weave_calculator))
 
     puts choice 
-    # choice = gets.chomp.to_i
+
 
     if choice == "make_weave_encryption"
         make_weave
     elsif choice == "decipher_weave"
-        #------------------>this doesnt exist? so will this be an error?
+
         decipher_weave
     else choice == "weave_calculator"
         choose_calculator_function
@@ -82,4 +80,3 @@ end
 
 #Decrypting (extra if there is time)
 
-#### user guides??**(past student github readme's)

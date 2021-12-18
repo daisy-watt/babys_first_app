@@ -2,43 +2,29 @@
     |  /---------------------\  |
     | |                       | |
     | |                       | |
-    | |    ....weavemate_94   | |
+    | |    ##....weavemate_94 | |
     | |                       | |
     | |                       | |
-    |  \_____________________/   |
+    |  \_____________________/  |
     |___________________________|
-   ,---\_____     []     _______/------,
-  /         /______________\           /|
-/___________________________________ /  | ___
-|                                   |   |    )
-|  _ _ _                 [-------]  |   |   (
-|  4 2 0                 [-------]  |  /    _)_
-|__________________________________ |/     /  /
-/-------------------------------------/|   ( )/
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ /
-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/-/ /
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
 
 Link to this Repository here
+https://github.com/daisy-watt/babys_first_app.git
 
-INSTALL INSTRUCTIONS:
+#INSTALLATION INSTRUCTIONS:
 
-Get the repository from the link. 
+Instal ruby ______
+Clone the repository from the supplied github link. 
+cd into source folder
 
-Go to src folder. cd src
 
-Run the install.sh file in terminal. sh install.sh
-
-cd src
-sh install.sh
-This will install the gem bundler and the gems needed.
-
-System Requirements:
+#SYSTEM REQUIREMENTS:
 
 Ruby v2.4 or later
 Mac OS or Windows OS 
 
-Dependencies:
+#DEPENDANCIES:
 
 colorize (0.8.1)
 paint (2.2.1)
@@ -46,7 +32,7 @@ tty-editor  (0.7.0)
 tty-prompt (0.23.1)
 json (2.6.1) 
 
-STATEMENT OF PURPOSE AND SCOPE(300-500words):
+#STATEMENT OF PURPOSE AND SCOPE(300-500words):
 
 This application turns words into coloured weave structures, which has future scope for then ciphering the weave structures back into words. eavemate_94 also has the ability to colour eaves specifically with precise RGB values, and output the weave. It also has a section which performs automated calculcations for weave planning and loom set up requiremnts.
 
@@ -58,7 +44,7 @@ weave pocket calculator. I personally have been fascinated with data visualisati
 
 - Identify the target audience and explain how the target audience would use it
 
-FEATURES DESCRIPTIONS:
+#FEATURES DESCRIPTIONS:
 
 - make_weave_encryption:
     - turns written message into a "weave structures"
@@ -83,17 +69,17 @@ FEATURES DESCRIPTIONS:
 - cipher_weave:
     - planned for an extra feature, didnt execute this idea in its entireity 
 
-OUTLINE USER INTERACTIONS/EXPERIENCE:
+#OUTLINE USER INTERACTIONS/EXPERIENCE:
 
 
-IMPLEMENTATION PLAN 
+#IMPLEMENTATION PLAN 
 trello screenshots, with dates and times
 screenshots of feature developments and deetails of dates ect
 
-CRONTROL FLOW DIAGRAM.... 
+#CRONTROL FLOW DIAGRAM.... 
 
 
-GITLOG FILES/LINK:
+#GITLOG FILES/LINK:
 
 
 HELP DOCUMENTATION:
