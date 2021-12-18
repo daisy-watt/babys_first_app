@@ -27,16 +27,16 @@ def make_weave
     
     # Get user input.
     # -------------------what happens if someone enters in a symbol or number?
-    puts "Enter your secret message below:"
+    puts "Type in your secret message below kid:"
     secret_message = gets.chomp.downcase
 
     # -------------------what happens if someone enters in something other than yes or no?
-    puts "Would you like to choose your colors?"
+    puts "Would you like to choose your colors? (type in yes or no baby)"
 
     # color_choice = prompt.select("now, how would you like to color your weave? (Use ↑/↓ arrow keys, press Enter to select)", %w(let_the_matrix_decide imput_RGB_values))
 
     color_choice = gets.chomp
-    puts "here is your woven encryption:"
+    puts "here is your secret woven encryption:"
     if color_choice == "no"
         warp_color_R = rand(0..255)
         warp_color_G = rand(0..255)
@@ -78,6 +78,7 @@ def make_weave
         # Move to next character
         index = index + 1
     end
+    puts "better not show anyone hehe"
     File.write("secret_weave.txt", final_weave_output)
     puts "open your secret weave file below"
     TTY::Editor.open("secret_weave.txt")

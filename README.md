@@ -12,7 +12,7 @@
 Link to this Repository here
 https://github.com/daisy-watt/babys_first_app.git
 
-#INSTALLATION INSTRUCTIONS:
+INSTALLATION INSTRUCTIONS:
 
 Instal ruby ______
 Clone the repository from the supplied github link. 
@@ -24,7 +24,7 @@ cd into source folder
 Ruby v2.4 or later
 Mac OS or Windows OS 
 
-#DEPENDANCIES:
+DEPENDANCIES:
 
 colorize (0.8.1)
 paint (2.2.1)
@@ -32,19 +32,20 @@ tty-editor  (0.7.0)
 tty-prompt (0.23.1)
 json (2.6.1) 
 
-#STATEMENT OF PURPOSE AND SCOPE(300-500words):
+STATEMENT OF PURPOSE AND SCOPE:
 
-This application turns words into coloured weave structures, which has future scope for then ciphering the weave structures back into words. eavemate_94 also has the ability to colour eaves specifically with precise RGB values, and output the weave. It also has a section which performs automated calculcations for weave planning and loom set up requiremnts.
+In ten words or less, this application turns words into coloured weave structures. 
 
-- Identify the problem the app is solving, Explain why i am developing it
-The application has two main parts to it, The weave encrytpion element, as well as a 
-weave pocket calculator. I personally have been fascinated with data visualisation in creative practices, specifically woven structures in my case. This application allows me to automate something i have been generating and weaving (with graph paper and pencils.) which typically takes a long time to be able to see the outcome. I1
+The app also has a section dedicated to the tedious yet basic calculations weavers and textile folk need when planning and developing woven work on the loom. Perhaps in the future for weavemate_94 there is potential scope for then ciphering the weave structures back into words. The app also outputs coloured weaves, specifically with precise RGB values. The fashion and textile industry are heavily reliant on precise color matching and utilizes color index libraries such as pantone© - who provide RGB values for their thousands and thousands of colors. It also has a section which performs automated calculations for weave planning and loom set up requirements.
 
- that helps make the loom set up and preperation less tedious by automating a load of math calculations needed for the weaveing set up process. 
+The application has two main parts to it: The weave encryption element, as well as a
+weave pocket calculator - There's also a tongue-in-cheek ghost category(deciper_weave) for a potential new feature that was cut from this round of production due to scoping issues. Personally I have been fascinated with data visualization in creative practices and have been eager for the opportunity to be able to actualize something from this intersection of ideas. This application allows me to automate something I have been trying to generate within weaving (up until recently this process was largely graphed out on graph paper and pencils...).
 
-- Identify the target audience and explain how the target audience would use it
+The target audience for this app is broken into two parts; one part focusing on other studio weavers or textile folk who regularly work with looms. They would benefit from the automation of some basic calculations and from the streamlining of accessing their sley sequence specifications for loom set up requirements. The second part of this application's intended targeted audience would be for anyone with a curiosity for weaving and tongue-in-cheek-encryption, it could provide entertainment and indulge cheeky creativity. 
 
-#FEATURES DESCRIPTIONS:
+
+FEATURES DESCRIPTIONS:
+
 
 - make_weave_encryption:
     - turns written message into a "weave structures"
@@ -55,6 +56,7 @@ weave pocket calculator. I personally have been fascinated with data visualisati
             - Precise RGB imput for "warp"(background) and "weft"(forground)
             - Saves the weave as "secret_weave"
             - allows you to open the raw file in a txt editor (will link this with the ciphering element)
+        - Randomise 
 
 - weave_calculator:
     - epi_calculator:
@@ -69,17 +71,17 @@ weave pocket calculator. I personally have been fascinated with data visualisati
 - cipher_weave:
     - planned for an extra feature, didnt execute this idea in its entireity 
 
-#OUTLINE USER INTERACTIONS/EXPERIENCE:
+OUTLINE USER INTERACTIONS/EXPERIENCE:
 
 
-#IMPLEMENTATION PLAN 
+IMPLEMENTATION PLAN: 
 trello screenshots, with dates and times
 screenshots of feature developments and deetails of dates ect
 
-#CRONTROL FLOW DIAGRAM.... 
+CONTROL FLOW DIAGRAM:
 
 
-#GITLOG FILES/LINK:
+GITLOG FILES/LINK:
 
 
 HELP DOCUMENTATION:
